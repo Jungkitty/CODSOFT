@@ -14,4 +14,4 @@ match op:
     case "/":  
         print("Result:", "Error: Division by zero" if num2 == 0 else num1 / num2)
     case _:  
-         print("Invalid operator!")
+         print("Invalid operator.")
